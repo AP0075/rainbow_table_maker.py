@@ -1,0 +1,1 @@
+hi, this program takes  a string and mkaes the list of encrypted hash of all combinations of the charecters of the string. The encryptin is used here is replacing the charecters with the ith charecter after the charecter. And the program stores the encryption with synchronizing with the correct combination in a text file.
