@@ -29,9 +29,9 @@ def main():
 		for passwd in passwd_lst:
 			file.write(f"{passwd} : {encrypt(passwd,shift)} \n")
 
-    with open('rainbow_table.txt', 'w') as file:
-        for passwd in passwd_lst:
-            file.write(f"{encrypt(passwd,shift)}\n")
+    	with open('rainbow_table.txt', 'w') as file:
+        	for passwd in passwd_lst:
+            		file.write(f"{encrypt(passwd,shift)}\n")
 
 	for passwd in passwd_lst:
 		print(f"{passwd} : {encrypt(passwd,shift)}")
